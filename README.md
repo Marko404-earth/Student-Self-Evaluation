@@ -1,1 +1,41 @@
-# Student-Self-Evaluation
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Self Evaluation</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+    </head>
+  <body>
+    <h1>Self Evaluation</h1>
+    <label for="Please write 1-2 sentences about how you feel">:</label>
+    <textarea id="message" rows="4" cals="50"></textarea>
+    <hr>
+    <fieldset>
+    <legend>Students info</legend>
+    <label for="Strand" name="Strand">
+        <select id="Strand" name="Strand">
+            <option value="TVL">TVL</option>
+            <option value="ABM">ABM</option>
+            <option value="Arts & Design">Arts & Design</option>
+            <option value="STEM">STEM</option>
+            <option value="GAS">GAS</option>
+        </select>
+        <hr>
+        <label for="Grade & Section" name="Grade & Section"/label>
+        <input type="text" id="Grade & Section" name="Grade & Section" values="Type here"dsable>
+        <br>
+        <label type'"text" id="First-Name" name="First-Name" value="First Name"</label>
+        <label type="text" id="Last-Name" name="Last-Name" value="Last-Name"</lable>
+        <label type="text" id=""Middle-Name" name="Middle-Name" value="Middle Name"</label>
+        <br>
+        <br>
+        <label for="Date" name="Date">Date:</label>
+        <p><strong>This page is designed to help you reflect on your learning and experiences.</strong></p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com">
+          <p><strong>Reflecting on these questions can help you gain insights into your learning process and identify areas for improvement.</strong></p>
+         </body>
+        </body>
+    </fieldset>
+ </html>
